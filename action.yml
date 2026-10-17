@@ -1,7 +1,7 @@
 name: "{GITHUB username}'s Action in Action"
 description: 'Greets someone and returns always 42.'
 inputs:
-  who-to-great: # id of input
+  who-to-greet: # id of input
     description: 'Who to greet'
     required: true
     default: 'World'
