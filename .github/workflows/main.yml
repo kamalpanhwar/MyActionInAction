@@ -21,10 +21,10 @@ on:
         description: 'Apply tag after successfull test run'
         required: true
         type: boolean
-      environment:
-        description: 'Environment to run tests agains'
-        type: environment
-        required: true
+      # environment:
+      #   description: 'Environment to run tests agains'
+      #   type: environment
+      #   required: true
       
 jobs:
   MyFirstJob:
