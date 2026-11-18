@@ -61,7 +61,7 @@ jobs:
       - run: "echo Job: ${{ github.job }}"
 
   job_3:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     needs: job_1
     steps:
       - run: "echo Job: ${{github.job }}"
